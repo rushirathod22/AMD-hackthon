@@ -1,240 +1,237 @@
-🛡️ TruthLens
-Explainable AI Digital Safety Companion
 
-TruthLens is an AI-powered browser-based assistant designed to detect phishing, scams, and risky digital behavior — while explaining why the content is dangerous.
+
+# 🛡️ TruthLens
+
+### Explainable AI Digital Safety Companion
+
+TruthLens is an AI-powered browser-based assistant designed to detect phishing, scams, and risky digital behavior — while explaining *why* the content is dangerous.
 
 It combines machine learning, heuristic detection, and an AI explanation layer to transform digital threat detection into digital awareness.
 
-🚨 Problem Statement
+---
+
+## 🚨 Problem Statement
 
 Students and freshers are increasingly targeted by:
 
-Fake internship offers
-
-Scholarship scams
-
-Phishing emails impersonating banks or universities
-
-Suspicious links and malicious PDFs
-
-Misinformation and manipulated content
+* Fake internship offers
+* Scholarship scams
+* Phishing emails impersonating banks or universities
+* Suspicious links and malicious PDFs
+* Misinformation and manipulated content
 
 Existing cybersecurity tools:
 
-Are technical and complex
-
-Provide warnings without explanation
-
-Do not educate users
-
-Are not student-focused
+* Are technical and complex
+* Provide warnings without explanation
+* Do not educate users
+* Are not student-focused
 
 As a result, users either panic or ignore alerts.
 
-💡 Our Solution
+---
+
+## 💡 Our Solution
 
 TruthLens analyzes:
 
-Email content
-
-URLs
-
-Text-based suspicious messages
+* Email content
+* URLs
+* Text-based suspicious messages
 
 It generates:
 
-Risk score
-
-Highlighted red flags
-
-Plain-language explanation
-
-Actionable safety advice
+* Risk score
+* Highlighted red flags
+* Plain-language explanation
+* Actionable safety advice
 
 TruthLens does not just detect threats — it teaches users how to recognize them.
 
-✨ Core Features (MVP)
-1️⃣ Phishing Analyzer
+---
 
-Paste suspicious email
+## ✨ Core Features (MVP)
 
-ML-based risk score
+### 1️⃣ Phishing Analyzer
 
-Highlighted red flags
+* Paste suspicious email
+* ML-based risk score
+* Highlighted red flags
+* AI explanation layer
 
-AI explanation layer
+### 2️⃣ URL Risk Scanner
 
-2️⃣ URL Risk Scanner
+* HTTPS verification
+* Domain age check
+* Brand impersonation detection
+* Scam probability score
 
-HTTPS verification
+### 3️⃣ AI Teach-Back Mode
 
-Domain age check
+* Explains risk in simple language
+* Suggests preventive actions
 
-Brand impersonation detection
+### 4️⃣ Digital Hygiene Score
 
-Scam probability score
+* Personalized safety score
+* Improvement recommendations
 
-3️⃣ AI Teach-Back Mode
+---
 
-Explains risk in simple language
-
-Suggests preventive actions
-
-4️⃣ Digital Hygiene Score
-
-Personalized safety score
-
-Improvement recommendations
-
-🏗️ System Architecture
+## 🏗️ System Architecture
 
 User Input (Email / URL / Text)
 ↓
 Preprocessing Layer
 
-Text cleaning
-
-URL extraction
-
-Pattern detection
+* Text cleaning
+* URL extraction
+* Pattern detection
 
 ↓
 ML Classification Model
 
-Phishing probability prediction
+* Phishing probability prediction
 
 ↓
 Heuristic Engine
 
-Urgency detection
-
-Suspicious keywords
-
-Domain mismatch
+* Urgency detection
+* Suspicious keywords
+* Domain mismatch
 
 ↓
 LLM Explanation Layer
 
-Converts technical signals into human-readable reasoning
+* Converts technical signals into human-readable reasoning
 
 ↓
 User Dashboard
 
-Risk score
+* Risk score
+* Red flags
+* Safety advice
 
-Red flags
+---
 
-Safety advice
-
-🧠 Technology Stack
+## 🧠 Technology Stack
 
 Frontend:
 
-React.js
-
-Tailwind CSS
+* React.js
+* Tailwind CSS
 
 Backend:
 
-FastAPI / Node.js
+* FastAPI / Node.js
 
 Machine Learning:
 
-Scikit-learn classification model
+* Scikit-learn classification model
 
 LLM Layer:
 
-Open-source LLM (Mistral / LLaMA)
+* Open-source LLM (Mistral / LLaMA)
 
 Security Checks:
 
-Regex pattern detection
+* Regex pattern detection
+* WHOIS domain age analysis
+* HTTPS verification
 
-WHOIS domain age analysis
+---
 
-HTTPS verification
+## 📊 Example Output
 
-📊 Example Output
-
-Input:
+**Input:**
 “Your bank account will be suspended. Click here immediately.”
 
-Output:
+**Output:**
 
 Risk Score: 87%
 
 Detected Red Flags:
 
-Urgency-based language
-
-Impersonation pattern
-
-Suspicious link structure
+* Urgency-based language
+* Impersonation pattern
+* Suspicious link structure
 
 Explanation:
 This message uses urgency and impersonates a bank to pressure you into clicking a suspicious link. Always verify the sender’s official domain before taking action.
 
-🎯 Target Users
+---
 
-College students
+## 🎯 Target Users
 
-Internship applicants
+* College students
+* Internship applicants
+* Fresh graduates
+* University networks
 
-Fresh graduates
+---
 
-University networks
-
-🌍 Impact
+## 🌍 Impact
 
 TruthLens aims to:
 
-Reduce phishing success rates
-
-Prevent financial fraud
-
-Improve digital literacy
-
-Promote responsible AI usage
-
-Encourage safe browsing habits
+* Reduce phishing success rates
+* Prevent financial fraud
+* Improve digital literacy
+* Promote responsible AI usage
+* Encourage safe browsing habits
 
 It bridges the gap between threat detection and user understanding.
 
-🚀 Installation (Frontend MVP)
+---
+
+## 🚀 Installation (Frontend MVP)
 
 Clone the repository:
 
+```bash
 git clone https://github.com/rushirathod22/AMD-hackthon.git
+```
 
 Navigate to project:
 
+```bash
 cd truthlens-frontend
+```
 
 Install dependencies:
 
+```bash
 npm install
+```
 
 Run development server:
 
+```bash
 npm run dev
-📌 Future Scope
+```
 
-Browser extension deployment
+---
 
-Real-time email integration
+## 📌 Future Scope
 
-University network deployment
+* Browser extension deployment
+* Real-time email integration
+* University network deployment
+* Deepfake detection module
+* Real-time phishing database integration
 
-Deepfake detection module
+---
 
-Real-time phishing database integration
-
-🎥 Demo
+## 🎥 Demo
 
 Demo Video:
 (Add your YouTube or Drive link here)
 
-📂 Repository Structure
+---
+
+## 📂 Repository Structure
+
+```
 truthlens-frontend/
 │
 ├── components/
@@ -243,16 +240,20 @@ truthlens-frontend/
 ├── utils/
 ├── mock-data/
 └── README.md
-🏆 Why TruthLens?
+```
 
-Explainable AI approach
+---
 
-Student-focused security
+## 🏆 Why TruthLens?
 
-Combines ML + heuristics + LLM
-
-Real-world impact
-
-Demo-ready MVP
+* Explainable AI approach
+* Student-focused security
+* Combines ML + heuristics + LLM
+* Real-world impact
+* Demo-ready MVP
 
 TruthLens transforms digital safety into digital awareness.
+
+---
+
+I
